@@ -1,0 +1,138 @@
+/* details that applys to all        */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/* this is the color of the body background */
+body {
+    background-color: #d9dcd6;
+}
+/* this is the color, style text, and padding for header */
+header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+/* header h1 details */
+header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+header h1 .seo {
+    color: #d9dcd6;
+}
+/* this is nav details */
+header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+/* header nav ul details */
+header nav ul {
+    list-style-type: none;
+}
+/* header nav ul li details */
+header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+/* paragraph details */
+p {
+    font-size: 16px;
+}
+/* this is the style of the hero photo */
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+/* this is Search Engine Optimization and Social Media Marketing image floating details */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+/* this is Online Reputation Management image floating details */
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+/* this is main semantic details */
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+/* this is asdie samantic */
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+/* this is margin location and size and color */
+.benefit {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* h3 title details */
+.benefit h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* this is aside samantic image details */
+.benefit img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* this is the main semantic details */
+.services {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* this is the main semantic photo detail */
+.services img {
+    max-height: 200px;
+}
+
+/* this is Social Media Marketing header details */
+.services h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+/* footer details */
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+/* footer h2 details */
+footer h2 {
+    font-size: 20px;
+}
